@@ -3,6 +3,7 @@ import "./list.scss";
 import { SiLitiengine } from "react-icons/si";
 import { CiInboxIn } from "react-icons/ci";
 import { CiInboxOut } from "react-icons/ci";
+import { Link } from "react-router-dom";
 
 export const List = () => {
     return (
@@ -13,7 +14,7 @@ export const List = () => {
                 <div className=" flex flex-col justify-center items-center gap-y-4">
                     <button className=" flex flex-col justify-center items-center gap-y-6 text-stone-50 hover:text-orange-200 ease-in duration-150">
                        <CiInboxOut className=" w-16 h-16" />
-                       <span className=" text-3xl font-light">Retiro</span>
+                       <Link to="/Retiro" className=" text-3xl font-light">Retiro</Link>
                     </button>
                 </div>
                 <div className=" flex flex-col justify-center items-center gap-y-4">

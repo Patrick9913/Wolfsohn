@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 export const Retiro = () => {
 
@@ -100,7 +101,7 @@ export const Retiro = () => {
                     ))}
                 </div>
                 <div className=" flex justify-center items-center gap-x-10 h-auto w-[800px]">
-                    <button className=" text-stone-50 px-6 py-3 border border-white rounded-md font-semibold hover:bg-slate-600 hover:text-orange-200 ease-in duration-150">Volver</button>
+                    <button className=" text-stone-50 px-6 py-3 border border-white rounded-md font-semibold hover:bg-slate-600 hover:text-orange-200 ease-in duration-150"><Link>Volver</Link></button>
                     <button className=" text-stone-50 px-6 py-3 border border-white rounded-md font-semibold hover:bg-slate-600 hover:text-orange-200 ease-in duration-150">Confirmar Retiro</button>
                 </div>
             </div>
