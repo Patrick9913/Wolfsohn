@@ -33,7 +33,7 @@ const UserProvider = ({children}) => {
             })
         }
     }
-
+    
     const Register = async (values) => {
 
             await createUserWithEmailAndPassword ( auth, values.email, values.password )
